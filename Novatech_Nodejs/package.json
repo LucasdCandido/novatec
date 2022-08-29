@@ -1,0 +1,26 @@
+{
+  "name": "novatech_nodejs",
+  "version": "1.0.0",
+  "description": "Desenvolvendo um curso de Nodejs na Novatech",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jest test/* --coverage --verbose",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Lucas Dourado Candido",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/multipart": "7.1.1",
+    "axios": "0.27.2",
+    "fastify": "4.5.3",
+    "jwt-simple": "0.5.6",
+    "mongodb": "4.9.0",
+    "mongoist": "2.5.5",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "jest": "29.0.1",
+    "nodemon": "2.0.19"
+  }
+}
